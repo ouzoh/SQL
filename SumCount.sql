@@ -1,4 +1,4 @@
-#Sum the number of rows of two different tables
+#Sum the number of rows of two tables
 SELECT SUM(1) FROM
 (
 SELECT 1 FROM TABLE1 UNION ALL
