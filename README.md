@@ -1,2 +1,2 @@
 # SQL
-Collects of nice good to know
+Collects of very useful SQL codes
