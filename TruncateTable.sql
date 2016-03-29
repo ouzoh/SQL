@@ -8,4 +8,4 @@ TRUNCATE TABLE SCHEMANAME.TABLENAME IMMEDIATE;
 
 
 #If the commit statement is not used in DB2, you should get an error
-#Immediate errors that rollback is not possible and data is not written in memory
+#Immediate ensures no rollback and data is not written in memory hence making process efficient
