@@ -3,8 +3,9 @@
 #Query the tables you need to truncate
 
 
-COMMIT;
+
 TRUNCATE TABLE SCHEMANAME.TABLENAME IMMEDIATE;
+COMMIT;
 
 
 #If the commit statement is not used in DB2, you should get an error
