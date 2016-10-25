@@ -3,7 +3,7 @@
 #Query the tables you need to truncate
 
 
-
+COMMIT;
 TRUNCATE TABLE SCHEMANAME.TABLENAME IMMEDIATE;
 COMMIT;
 
