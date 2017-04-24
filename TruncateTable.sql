@@ -10,3 +10,18 @@ COMMIT;
 
 #If the commit statement is not used in DB2, you should get an error
 #Immediate ensures no rollback and data is not written in memory hence making process efficient
+
+
+#psql
+
+
+TRUNCATE TABLE "tutorials";
+COMMIT;
+
+#drop table
+drop table "TBL_Vehicles" --CASCADE;
+
+Adding cascade removes associated tables as well
+
+
+
